@@ -4,8 +4,8 @@
 
 import * as React from 'react';
 
-type MouseEvents = 'click' | 'mousedown' | 'mouseup';
-type TouchEvents = 'touchstart' | 'touchend';
+export type MouseEvents = 'click' | 'mousedown' | 'mouseup';
+export type TouchEvents = 'touchstart' | 'touchend';
 
 export interface Props {
   container?: React.MutableRefObject<HTMLElement | any>;
