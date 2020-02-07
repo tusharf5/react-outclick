@@ -2,9 +2,16 @@
   "name": "react-outclick",
   "version": "0.0.1",
   "description": "A React component for handling clicks outside of a component",
-  "author": "tusharf5",
   "license": "MIT",
-  "repository": "https://github.com/tusharf5/react-outclick",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tusharf5/react-outclick"
+  },
+  "author": {
+    "name": "Tushar Sharma",
+    "email": "ts17995@gmail.com",
+    "url": "https://tusharsharma.dev"
+  },
   "main": "dist/index.js",
   "module": "dist/index.es.js",
   "jsnext:main": "dist/index.es.js",
@@ -23,8 +30,10 @@
     "test": "cross-env CI=1 react-scripts-ts test --env=jsdom",
     "test:watch": "react-scripts-ts test --env=jsdom",
     "build": "rollup -c",
+    "format": "npx prettier --write '**/*.{ts,js,json}'",
     "start": "rollup -c -w",
     "prepare": "yarn run build",
+    "prepublish": "npm run build",
     "predeploy": "cd example && yarn install && yarn run build",
     "deploy": "gh-pages -d example/build"
   },

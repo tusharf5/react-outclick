@@ -2,7 +2,8 @@
 
 > A React component for handling clicks outside of a component
 
-[![NPM](https://img.shields.io/npm/v/react-outclick.svg)](https://www.npmjs.com/package/react-outclick) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+![LISCENCE](https://img.shields.io/npm/l/react-outclick) ![NPM Downloads](https://img.shields.io/npm/dt/react-outclick) ![NPM Version](https://img.shields.io/npm/v/react-outclick) ![Size](https://img.shields.io/bundlephobia/minzip/react-outclick)
+
 
 ## Install
 
