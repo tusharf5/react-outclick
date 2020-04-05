@@ -1,6 +1,6 @@
 {
   "name": "react-outclick",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A React component for handling clicks outside of a component",
   "license": "MIT",
   "repository": {
@@ -41,26 +41,26 @@
     "react-dom": "^16.8.0"
   },
   "devDependencies": {
-    "@babel/core": "7",
-    "@babel/runtime": "^7.8.4",
-    "@babel/runtime-corejs2": "^7.8.4",
+    "@babel/core": "7.9.0",
+    "@babel/runtime": "^7.9.2",
+    "@babel/runtime-corejs2": "^7.9.2",
     "@rollup/plugin-commonjs": "^11.0.2",
     "@rollup/plugin-node-resolve": "^7.1.1",
     "@rollup/plugin-url": "^4.0.2",
-    "@svgr/rollup": "^5.1.0",
-    "@types/jest": "^25.1.2",
-    "@types/react": "^16.8.0",
-    "@types/react-dom": "^16.8.0",
-    "cross-env": "^7.0.0",
+    "@svgr/rollup": "^5.3.0",
+    "@types/jest": "^25.2.1",
+    "@types/react": "^16.9.32",
+    "@types/react-dom": "^16.9.6",
+    "cross-env": "^7.0.2",
     "gh-pages": "^2.2.0",
-    "react": "^16.8.0",
-    "react-dom": "^16.8.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
     "rollup": "^1.31.0",
-    "rollup-plugin-babel": "^4.3.3",
+    "rollup-plugin-babel": "^4.4.0",
     "rollup-plugin-peer-deps-external": "^2.2.2",
-    "rollup-plugin-postcss": "^2.0.6",
-    "rollup-plugin-typescript2": "^0.25.3",
-    "typescript": "^3.7.5"
+    "rollup-plugin-postcss": "^2.5.0",
+    "rollup-plugin-typescript2": "^0.27.0",
+    "typescript": "^3.8.3"
   },
   "files": [
     "dist"
