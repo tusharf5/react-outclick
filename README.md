@@ -1,9 +1,25 @@
-# react-outclick
+<p align="center">
+   <a href="https://github.com/tusharf5/react-outclick"><img src="https://raw.githubusercontent.com/tusharf5/react-outclick/master/static/logo.gif" alt="css class conditional react dynamic" height="100"/></a>
+</p>
 
-> A React component for handling clicks outside of a component
+<h1 align="center">react-outclick</h1>
 
-![LISCENCE](https://img.shields.io/npm/l/react-outclick) ![NPM Downloads](https://img.shields.io/npm/dt/react-outclick) ![NPM Version](https://img.shields.io/npm/v/react-outclick) ![Size](https://img.shields.io/bundlephobia/minzip/react-outclick)
+<p align="center">React component for handling clicks outside of a component.</p>
 
+<p align="center">
+	<a href="https://github.com/tusharf5/react-outclick">
+     <img src="https://img.shields.io/npm/l/react-outclick" height="20"/>
+  </a>
+	<a href="https://github.com/tusharf5/react-outclick">
+     <img src="https://img.shields.io/npm/v/react-outclick" height="20"/>
+  </a>
+	<a href="https://github.com/tusharf5/react-outclick">
+     <img src="https://img.shields.io/npm/dt/react-outclick" height="20"/>
+  </a>
+	<a href="https://github.com/tusharf5/react-outclick">
+     <img src="https://img.shields.io/bundlephobia/minzip/react-outclick" height="20"/>
+  </a>
+</p><br/><br/>
 
 ## Install
 
@@ -74,11 +90,11 @@ The `onOutsideClick` prop is also required as without it, the `OnOutsiceClick` i
 By default, this library will detect any `click` event that happens outside of your react component. But sometimes, you want to
 detect event inside a container and outside one of its child. For that you can pass in a container (parent) element react ref as a prop.
 
-![Default](https://raw.githubusercontent.com/tusharf5/react-outclick/master/images/default.png)
+![Default](https://raw.githubusercontent.com/tusharf5/react-outclick/master/static/default-use.svg)
 
 **By default, clicks are detected everywhere outside your component.**
 
-![Container](https://raw.githubusercontent.com/tusharf5/react-outclick/master/images/container.png)
+![Container](https://raw.githubusercontent.com/tusharf5/react-outclick/master/static/container-use.svg)
 
 **If a `container` is specified then only those clicks are handles which happens outside of your component and inside the container.**
 
