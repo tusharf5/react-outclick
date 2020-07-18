@@ -55,7 +55,7 @@ function App() {
 
 If a `container` prop is also specified, clicks are only handled if they they happen outside of your component and inside the `container` element.
 
-<img src="https://raw.githubusercontent.com/tusharf5/react-outclick/master/static/containner-use.svg" height="350"/>
+<img src="https://raw.githubusercontent.com/tusharf5/react-outclick/master/static/container-use.svg" height="350"/>
 
 
 ```tsx
