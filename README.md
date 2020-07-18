@@ -96,7 +96,7 @@ detect event inside a container and outside one of its child. For that you can p
 
 **By default, clicks are detected everywhere outside your component.**
 
-<img src="https://raw.githubusercontent.com/tusharf5/react-outclick/master/static/container-use.svg" height="350"/>
+<img src="https://raw.githubusercontent.com/tusharf5/react-outclick/master/static/containner-use.svg" height="350"/>
 
 **If a `container` is specified then only those clicks are handles which happens outside of your component and inside the container.**
 
