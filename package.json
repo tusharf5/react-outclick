@@ -1,6 +1,6 @@
 {
   "name": "react-outclick",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "A React component for handling clicks outside of a component",
   "license": "MIT",
   "repository": {
