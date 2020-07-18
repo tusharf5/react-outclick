@@ -1,5 +1,7 @@
 <p align="center">
-   <a href="https://github.com/tusharf5/react-outclick"><img src="https://raw.githubusercontent.com/tusharf5/react-outclick/master/static/logo.gif" alt="css class conditional react dynamic" height="100"/></a>
+   <a href="https://github.com/tusharf5/react-outclick">
+     <img src="https://raw.githubusercontent.com/tusharf5/react-outclick/master/static/logo.gif" alt="react click outside component" height="100"/>
+   </a>
 </p>
 
 <h1 align="center">react-outclick</h1>
@@ -90,11 +92,11 @@ The `onOutsideClick` prop is also required as without it, the `OnOutsiceClick` i
 By default, this library will detect any `click` event that happens outside of your react component. But sometimes, you want to
 detect event inside a container and outside one of its child. For that you can pass in a container (parent) element react ref as a prop.
 
-![Default](https://raw.githubusercontent.com/tusharf5/react-outclick/master/static/default-use.svg)
+<img src="https://raw.githubusercontent.com/tusharf5/react-outclick/master/static/default-use.svg" height="350"/>
 
 **By default, clicks are detected everywhere outside your component.**
 
-![Container](https://raw.githubusercontent.com/tusharf5/react-outclick/master/static/container-use.svg)
+<img src="https://raw.githubusercontent.com/tusharf5/react-outclick/master/static/container-use.svg" height="350"/>
 
 **If a `container` is specified then only those clicks are handles which happens outside of your component and inside the container.**
 
